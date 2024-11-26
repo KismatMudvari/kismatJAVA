@@ -49,6 +49,6 @@ import java.util.Scanner;
                     System.out.println("Please enter the number from from 1 to 5 only.");
                         break;
                 }
-                sc.close();
+            
             }
 }
