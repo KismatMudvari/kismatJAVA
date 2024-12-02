@@ -6,6 +6,8 @@ import java.util.Scanner;
             int a= sc.nextInt();
             System.out.println("Enter the value of b:");
             int b = sc.nextInt();
+            System.out.println("Enter the value of c:");
+            int c = sc.nextInt();
 
             // let user choose their desired operation
              System.out.println("Choose your operation");
@@ -18,20 +20,20 @@ import java.util.Scanner;
 
                 switch (choice) {
                     case 1:
-                        System.out.println("The result of addition is:"+(a+b));
+                        System.out.println("The result of addition is:"+(a+b+c));
                         break;
 
                     case 2:
-                        System.out.println("The result of subtrcation is :"+ (a-b));
+                        System.out.println("The result of subtrcation is :"+ (a-b-c));
                         break;
 
                     case 3:
-                        System.out.println("The result of Multiply is:"+ (a*b));
+                        System.out.println("The result of Multiply is:"+ (a*b*c));
                         break;
 
                     case 4:
                         if (b != 0) {
-                            System.out.println("The result of division is: " + (a / b));
+                            System.out.println("The result of division is: " + (a / b / c));
                         } else {
                             System.out.println("Division by zero is not allowed.");
                         }
@@ -39,7 +41,7 @@ import java.util.Scanner;
 
                     case 5:
                         if (b != 0) {
-                            System.out.println("The result of modulo is: " + (a % b));
+                            System.out.println("The result of modulo is: " + (a % b% c));
                         } else {
                             System.out.println("Modulo by zero is not allowed.");
                         }
