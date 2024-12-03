@@ -32,7 +32,7 @@ import java.util.Scanner;
                         break;
 
                     case 4:
-                        if (b != 0) {
+                        if (b != 0 || c!=0) {
                             System.out.println("The result of division is: " + (a / b / c));
                         } else {
                             System.out.println("Division by zero is not allowed.");
@@ -40,7 +40,7 @@ import java.util.Scanner;
                         break;
 
                     case 5:
-                        if (b != 0) {
+                        if (b != 0 || c!=0) {
                             System.out.println("The result of modulo is: " + (a % b% c));
                         } else {
                             System.out.println("Modulo by zero is not allowed.");
