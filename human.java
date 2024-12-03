@@ -1,6 +1,6 @@
 public class human {
     public static void main(String[] args) {
-        System.out.println("      O\n" + //
+        System.out.print("      O\n" + //
                         "     /|\\\n" + //
                         "     / \\");
     }
