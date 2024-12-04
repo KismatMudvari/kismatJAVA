@@ -15,11 +15,20 @@ public class menu {
                 case 1:
                     System.out.println("Coffee");
                     break;
-                case 2:
-                    System.out.println("Red bull");
-                    break; 
+                    case 2:
+                    System.out.println(" Take your Red bull\n" + 
+                                       "   _______\\\n" +
+                                       "  /       \\\n" + 
+                                       " /         \\\n" + 
+                                       "|           |\n" + 
+                                       "|           |\n" + 
+                                       "|           |\n" + 
+                                       " \\         /\n" + 
+                                       "  \\_______/ ");
+                    break;
+                
                 case 3:
-                    System.out.println("Beer");
+                    System.out.println("Beer ");
                     break; 
                 case 4:
                     System.out.println("Hard Drinks");

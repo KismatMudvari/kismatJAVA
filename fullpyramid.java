@@ -9,7 +9,7 @@ public class fullpyramid {
                     System.out.print(" ");
                 }
                 {
-                    for(int j=1;j<=n*2-i;j++){
+                    for(int j=1;j<=i*2-1;j++){
                         System.out.print("*");
                     }
                 }
