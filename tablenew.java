@@ -7,7 +7,7 @@ public class tablenew {
         //output
         System.out.println("The table of"+a );
         for(int i=1;i<=10;i++){
-            System.out.println(a*i);
+            System.out.println(a*i);                                
         }
     }
 }
