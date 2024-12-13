@@ -3,7 +3,7 @@ public public class butterfly {
         System.out.println("     NXXXXXN                 NXXXXXNN    \r\n" + //
                         "   NXXXXXXXXXN           NXXXXXXXXXXXXN  \r\n" + //
                         "  NXXXXXXXXXXXXN       NXXXXXXXXXXXXXXXN \r\n" + //
-                        " NXXXXXXXXXXXXXXXXX   NXXXXXXXXXXXXXXXXX\r\n" + //
+                        " NXXXXXXXXXXXXXXXX   NXXXXXXXXXXXXXXXXX\r\n" + //
                         "NXXXXXXXXXXXXXXXXXXXXNXXXXXXXXXXXXXXXXXXXXN\r\n" + //
                         " NXXXXXXXXXXXXXXXXX   NXXXXXXXXXXXXXXXXX\r\n" + //
                         "  NXXXXXXXXXXXXXXX     NXXXXXXXXXXXXXXXN\r\n" + //
