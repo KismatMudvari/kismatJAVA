@@ -1,4 +1,4 @@
-public public class butterfly {
+public public class butterfly{
     public static void main(String[] args) {
         System.out.println("     NXXXXXN                 NXXXXXNN    \r\n" + //
                         "   NXXXXXXXXXN           NXXXXXXXXXXXXN  \r\n" + //
@@ -15,7 +15,4 @@ public public class butterfly {
                         "            N                   N\r\n" + //
                         "");
     }
-}
- {
-    
 }
