@@ -9,4 +9,3 @@ Scanner sc = new Scanner (System. in);
 String name =sc.next();
 printMyName(name);//call kiya function ko
 }
-}
