@@ -5,7 +5,7 @@ public class FibonacciSeries {
         Scanner scannercanner = new Scanner(System.in);
 
         System.out.println("Enter the number of terms for the Fibonacci series:");
-        int terms = scanner.nextInt();
+        int terms =scanner.nextInt();
 
         if (terms <= 0) {
             System.out.println("Please enter a positive number.");
