@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class FibonacciSeries {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scannercanner = new Scanner(System.in);
 
         System.out.println("Enter the number of terms for the Fibonacci series:");
         int terms = scanner.nextInt();
