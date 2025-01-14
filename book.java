@@ -10,7 +10,7 @@ class Book {
         this.title = title;
         this.author = author;
         this.year = year;
-        this.isAvailable = true;  // By default, the book is available
+        this.isAvailable = true; // By default, the book is available
     }
 
     // Getters and Setters
@@ -48,11 +48,16 @@ class Book {
 class User {
     private String name;
     private int userId;
-    
+
     // Constructor
     public User(String name, int userId) {
         this.name = name;
         this.userId = userId;
+    }
+
+    // Getter for name
+    public String getName() {
+        return name;
     }
 
     // Method to borrow a book
@@ -127,7 +132,7 @@ class Library {
     }
 }
 
-public class LibrarySystem {
+public class book {
     public static void main(String[] args) {
         // Create a Library
         Library library = new Library(5, 3);
@@ -162,7 +167,7 @@ public class LibrarySystem {
 
         // User borrows and returns books
         user1.borrowBook(book1);
-        user2.borrowBook(book1);  // Book already borrowed
+        user2.borrowBook(book1); // Book already borrowed
         user1.returnBook(book1);
         user2.borrowBook(book1);
 

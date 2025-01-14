@@ -1,4 +1,4 @@
-public public class btrfly {
+public class btrfly {
     public static void main(String[] args) {
         System.out.println("     NXXXXXN                 NXXXXXNN    \r\n" + //
                 "   NXXXXXXXXXN           NXXXXXXXXXXXXN  \r\n" + //
