@@ -16,3 +16,5 @@ public class functionrevision {
         System.out.println("the multiple of a nd b is: " + multiple);
     }
 }
+// this was done yesterday but also i did today for short recall as I started
+// again yesterday after a long so.
