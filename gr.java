@@ -7,7 +7,7 @@ public class gr {
             b = a % b;
             a = temp;
         }
-        return Math.abs(a); // Ensure the GCD is always positive
+        return Math.abs(a); // EnsFacure the GCD is always positive
     }
 
     public static void main(String[] args) {
