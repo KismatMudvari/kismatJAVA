@@ -1,4 +1,4 @@
-public class FactorialCalculator {
+public class factorialCallculator {
 
     // Function to calculate factorial of a number
     public static int calculateFactorial(int number) {
