@@ -1,3 +1,4 @@
+//Write an infinite loop using do while condition.
 package PracticeQuestion;
 
 public class doWhile {
