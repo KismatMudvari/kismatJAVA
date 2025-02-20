@@ -21,7 +21,6 @@ public class GCD {
         int num1 = sc.nextInt();
         System.out.print("Enter the second number: ");
         int num2 = sc.nextInt();
-
         int gcd = calculateGCD(num1, num2);
 
         System.out.println("The GCD of " + num1 + " and " + num2 + " is: " + gcd);
