@@ -5,5 +5,7 @@ public class COncatination {
         // COncationation
         String FNAME = name + Full_Name;
         System.out.println(FNAME);
+        // to find the length of a string use .length();
+        System.out.println(FNAME.length());
     }
 }
